@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Mr+Dafoe&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mr+Dafoe&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Mr+Dafoe&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Mr+Dafoe&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Mr+Dafoe&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Share+Tech&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+body {
+    background: linear-gradient(to right, #FF0000, #FFFF00);
+}
+
+.cabecalho {
+    border-bottom: 4px solid #00FFFF;
+    background-color: #0080FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #FFFF00;
+    font-size: 22px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.principal-titulo-main {
+    font-family: "Lily Script One", system-ui;
+    font-weight: 600px;
+    font-size: 50px;
+    color: #00FF7F;
+}
+
+.principal-titulo-sub {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.principal-titulo-botao {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    height: 100px;
+    background: linear-gradient(to right,#1600FF, #0069FF);
+    box-shadow: 8px 5px 2px #00FFFF;
+    border-radius: 40px;
+    color: white;
+}
+
+.principal-titulo-botao:hover {
+    cursor: pointer;
+}
+
+.principal-titulo-botao:active {
+    transform: translateY(2px);
+}
+
+.principal-imagem {
+    height: 400px;
+}
+
+.secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.secundario-titulo-texto {
+    border-top: 0.4px solid #00FF7F;
+    padding-top: 20px;
+    font-family: "Lily Script One", system-ui;
+    font-weight: 600px;
+    font-size: 50px;
+    color: #00FF7F;
+}
+
+.secundario-subtitulo {
+    padding: 30px;
+}
+
+.secundario-subtitulo-texto {
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.rodape {
+    border-top: 4px solid #00FFFF;
+    background-color: #0080FF;
+    padding-top:10px;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.rodape-texto {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rodape-item-imagem {
+    width: 30px;
+}

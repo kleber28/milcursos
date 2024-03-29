@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>contato</title>
+</head>
+<body>
+    <img class="logo" src="logo.svg" alt="logo" />
+    <form>
+        <label>Digite seu nome</label><br>
+        <input type="text" required/>
+        <br><br>
+        <label>Digite seu email</label><br>
+        <input type="email"required/>
+        <br><br>
+        <label>Digite sua senha</label><br>
+        <input type="password" required/>
+        <br><br>
+        <label>Informe seu sexo</label>
+        <div class="escolha">
+            <input type="radio" name="genero" value="Masculino" required>Masculino
+            <input type="radio" name="genero" value="Feminino" required>Feminino
+            <input type="radio" name="genero" value="Outro" required>Outro
+        </div>
+        <br><br>
+        <label>Informe sua cidade:</label>
+        <select>
+            <option value="--">--</option>
+            <option value="cravinhos">Cravinhos</option>
+            <option value="ribeirao_preto">Ribeirão Preto</option>
+            <option value="santos">Santos</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
